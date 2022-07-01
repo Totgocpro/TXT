@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon>txtico3.ico</ApplicationIcon>
+    <Company>RPro</Company>
+    <Authors>Thomas</Authors>
+    <Description>Txt vous permet de pouvoir moidifier ou lire des fichiers !!!!!!</Description>
+    <Version>2.0.2</Version>
+    <PackageIcon>txt.png</PackageIcon>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Pictures\txt.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
